@@ -7,24 +7,29 @@
     tools:context="com.example.jrtan.happybirthday.MainActivity">
 
     <ImageView
+        android:id="@+id/party_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/party"
         android:scaleType="centerCrop"/>
 
     <TextView
+        android:id="@+id/greeting_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Happy Birthday Royce!"
+        android:fontFamily="Fira Sans"
         android:textColor="#FFFFFF"
         android:textSize="25sp"/>
 
     <TextView
+        android:id="@+id/from_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="From Junot!"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:text="From Junot"
+        android:fontFamily="Fira Sans"
         android:textColor="#FFFFFF"
         android:backgroundTint="#BDBDBD"
         android:textSize="25sp"/>
