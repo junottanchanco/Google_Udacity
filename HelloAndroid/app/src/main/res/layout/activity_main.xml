@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.googleudacity.jrtan.helloandroid.MainActivity">
+
+    <TextView
+        android:id="@+id/address_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"
+        android:text="2465 Latham St, Mountain View, CA 94043" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="650-555-555" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:fontFamily="monospace"
+        android:textSize="15dp"
+        android:text="Become a Machine Learning Engineer"/>
+
+    <ImageView
+        android:id="@+id/brain_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingTop="8dp"
+        android:src="@drawable/brain"/>
+
+    <ImageView
+        android:id="@+id/udacity_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="102dp"
+        android:padding="50dp"
+        android:src="@drawable/logo"/>
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/udacity_image_view"
+        android:text="visit website"
+        android:onClick="browser1"/>
+
+</RelativeLayout>
